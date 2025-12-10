@@ -1,0 +1,90 @@
+
+
+.pagina-cursos-root {
+font-family: Inter, system-ui, Segoe UI, Arial;
+background: #f8fafc;
+padding: 32px;
+color: #0f172a;
+}
+
+
+.section {
+margin-bottom: 40px;
+}
+
+
+.grid {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+gap: 20px;
+}
+
+
+.card {
+background: var(--card-bg);
+border-radius: 16px;
+padding: 16px;
+box-shadow: 0 4px 12px rgba(2, 6, 23, 0.06);
+display: flex;
+flex-direction: column;
+}
+
+.card img {
+width: 100%;
+height: 150px;
+object-fit: cover;
+border-radius: 10px;
+}
+
+
+.chip {
+display: inline-block;
+font-size: 12px;
+padding: 6px 8px;
+background: #eef2ff;
+color: #1e293b;
+border-radius: 999px;
+margin-top: 8px;
+}
+
+
+.title {
+font-weight: 600;
+margin-top: 10px;
+}
+
+
+.desc {
+font-size: 13px;
+color: var(--muted);
+margin-top: 6px;
+flex: 1;
+}
+
+
+.row {
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 12px;
+}
+
+
+.progress {
+font-size: 13px;
+color: var(--muted);
+}
+
+
+.link {
+font-size: 13px;
+color: var(--accent);
+text-decoration: none;
+}
+
+
+@media (max-width: 480px) {
+.pagina-cursos-root {
+padding: 16px;
+}
+}
