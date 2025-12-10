@@ -12,6 +12,8 @@ import About from './pages/About';
 import Cursos from './pages/Cursos';
 import MeuAprendizado from './pages/MeuAprendizado';
 import Certificacoes from './pages/Certificacoes';
+import Login from './pages/Login';
+
 
 function App() {
   
@@ -26,6 +28,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/meuaprendizado" element={<MeuAprendizado />} />
           <Route path="/certificacoes" element={<Certificacoes />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </BrowserRouter>
     </div>

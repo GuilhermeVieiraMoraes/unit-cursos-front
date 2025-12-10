@@ -17,6 +17,7 @@ const Navbar = () => {
         <div className='nav_user'>
             <ShoppingCart color="white"/>
             <div className="user"></div>
+            <li><Link to="/login">Login</Link></li>
         </div>
     </nav>
     
